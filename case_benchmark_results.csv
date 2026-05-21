@@ -1,0 +1,91 @@
+case_id,question,expected_answer,predicted_answer,exact_match,similar_match,judge_label,judge_raw,judge_normalized
+case_001,What is the fraud subtype in this case?,AI Trading Scam,AI Trading Scam,True,True,EXACT,EXACT,EXACT
+case_001,What is the victim's country of residence?,Netherlands,The victim resides in the Netherlands.,False,False,EXACT,EXACT,EXACT
+case_001,Which bank handled the victim’s transactions?,ABN AMRO,ABN AMRO,True,True,EXACT,EXACT,EXACT
+case_001,What is the initial amount invested by the victim?,€5000,The victim initially invested 5000 euros.,False,False,EXACT,EXACT,EXACT
+case_001,What is the name of the company that received the victim's investments?,NovaTech Investments EOOD,NovaTech Investments EOOD,True,True,EXACT,EXACT,EXACT
+case_001,What is the destination account where the victim was asked to transfer a 'verification fee'?,RS3020500000000000001432,RS3020500000000000001432,True,True,EXACT,EXACT,EXACT
+case_001,What is the name of the fraudster mentioned in the SAR?,Dimitri Petrov,The name of the subject is Dimitri Petrov.,False,False,EXACT,EXACT,EXACT
+case_001,"According to the bank statement, what was the largest debit transaction?",-5000,The largest debit transaction was 5000 EUR to NovaTech Investments EOOD.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_002,What is the victim's account number?,DE87370400440532113014,DE87370400440532113014,True,True,EXACT,EXACT,EXACT
+case_002,What company did the victim initially transfer funds to?,Aetheria Collective Ltd,Aetheria Collective Ltd,True,True,EXACT,EXACT,EXACT
+case_002,When was the SAR filed?,2023-06-22,"The SARs were filed on April 1st, 2023 and May 15th, 2023.",False,False,WRONG,WRONG,WRONG
+case_002,What is the reported fraud subtype?,NFT Scam,NFT Scam,True,True,EXACT,EXACT,EXACT
+case_002,What currency was used for the initial investment?,EUR,The investment involved EUR currency.,False,False,EXACT,EXACT,EXACT
+case_002,What is the name of the reporting institution?,Deutsche Kreditbank,Deutsche Kreditbank,True,True,EXACT,EXACT,EXACT
+case_002,What is one of the destination countries associated with the fraud?,Malta,Malta.,True,True,EXACT,EXACT,EXACT
+case_002,What email subject line was used to initially contact the victim?,Limited Time Offer: Aetheria Collective Invitation,Limited Time Offer: Aetheria Collective Invitation,True,True,EXACT,EXACT,EXACT
+case_003,What is the victim's occupation according to the bank statements?,Salary earner at Van Houten & Zn.,Salary earner at Van Houten & Zn.,True,True,EXACT,EXACT,EXACT
+case_003,Which company received the largest single transaction from the victim?,Celestial Arts Holdings Ltd,Celestial Arts Holdings Ltd,True,True,EXACT,EXACT,EXACT
+case_003,What date did the victim first interact with the fraudulent entity?,2023-08-15,2023-08-15,True,True,EXACT,EXACT,EXACT
+case_003,What countries are listed as destination countries for the funds?,"Hong Kong, Seychelles, Portugal","Hong Kong, Seychelles, and Portugal.",False,True,PARTIAL,PARTIAL,PARTIAL
+case_003,What type of asset was purchased by the victim?,NFTs,NFTs,True,True,EXACT,EXACT,EXACT
+case_003,What is the main purpose of the email sent on 2023-10-03?,To request KYC documentation,To request KYC documentation.,True,True,EXACT,EXACT,EXACT
+case_003,What is a common theme shared between the promotional brochure and the emails?,Exclusive access and limited-time offers,Exclusive access and limited-time offers.,True,True,EXACT,EXACT,EXACT
+case_003,Which language is spoken by the fraudster?,English,English.,True,True,EXACT,EXACT,EXACT
+case_003,Does the name of the beneficiary in the SAR match with those found in the email content?,Celestial Arts Holdings Ltd,Celestial Arts Holdings Ltd,True,True,EXACT,EXACT,EXACT
+case_003,What is the reported institution in the first SAR file?,ABN AMRO,The reported institution in the first SAR file is ING.,False,False,WRONG,WRONG,WRONG
+case_004,What is the name of the company the victim initially invested in?,ArtVerse Collective Ltd,ArtVerse Collective Ltd,True,True,EXACT,EXACT,EXACT
+case_004,What currency was used for the initial investment transaction?,EUR,The currency used for the initial investment transaction was EUR.,False,False,EXACT,EXACT,EXACT
+case_004,Which country's bank reported the suspicious activity?,Ireland,Ireland.,True,True,EXACT,EXACT,EXACT
+case_004,"According to the files, what type of asset was the victim invested in?",NFT,The victim was invested in an NFT.,False,False,EXACT,EXACT,EXACT
+case_004,"Who is the recipient of the money wired from the victim’s account on August 22, 2023?",ArtVerse Collective Ltd,ArtVerse Collective Ltd,True,True,EXACT,EXACT,EXACT
+case_004,What is mentioned on the website screenshot?,The screenshot shows a branded page with promotions and testimonials from 'verified investors'.,The screenshot shows a branded page with promotions and testimonials from 'verified investors'.,True,True,EXACT,EXACT,EXACT
+case_004,What is the report ID for the SAR filed with AIB Bank?,IRL2024-007,IRL2024-007,True,True,EXACT,EXACT,EXACT
+case_004,What was the purpose of the transaction recorded in sar_1.xml?,Investment in NFT project,The purpose of the transaction was investment in an NFT project.,False,False,EXACT,EXACT,EXACT
+case_004,What company employed the victim?,Eaton Pharmaceuticals,The victim was employed by Eaton Pharmaceuticals.,False,False,EXACT,EXACT,EXACT
+case_004,What is the account number of Aoife Byrne?,IE42AIBK94470243958013,Aoife Byrne's account number is IE42AIBK94470243958013.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_005,What is the victim’s account number?,NL97ABNA0123456789,NL97ABNA0123456789,True,True,EXACT,EXACT,EXACT
+case_005,"What is the stated purpose of the transaction on November 1st, 2023, according to the SAR?",NFT Withdrawal Request,The stated purpose of the transaction is an NFT Withdrawal Request and a transfer from Netherlands.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_005,Which company received the largest transfer from the victim?,ArtGenesis Ltd.,ArtGenesis Ltd.,True,True,EXACT,EXACT,EXACT
+case_005,What is the name of the person who invited Pieter van der Meer to join ArtGenesis?,Alexander,Alexander from ArtGenesis invited Pieter van der Meer to join ArtGenesis.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_005,What country is associated with the bank account used by Dimitar Petrov?,Bulgaria,Bulgaria,True,True,EXACT,EXACT,EXACT
+case_005,What type of asset was involved in this fraud case?,NFTs,NFTs were involved in this fraud case.,False,False,EXACT,EXACT,EXACT
+case_005,What is the URL mentioned in the ArtGenesis brochure?,www.artgenesis.fake,The URL provided in the brochure is www.artgenesis.fake.,False,False,EXACT,EXACT,EXACT
+case_005,"According to the email, what is the limited-time offer from ArtGenesis?",Double Your Investment,The offer is an opportunity to double your investment in an exclusive NFT collection.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,What is the reported fraud type in this case?,Forex Scam,Forex Scam,True,True,EXACT,EXACT,EXACT
+case_006,Which company is consistently mentioned in the transaction history and reports?,EuroFX Solutions Ltd,EuroFX Solutions Ltd,True,True,EXACT,EXACT,EXACT
+case_006,Approximately how much money did the victim initially invest?,€8000,The provided information does not specify the initial investment amount. It only mentions payments of €1500 and €3000 related to recovering losses and funds.,False,False,WRONG,WRONG,WRONG
+case_006,What is the purpose of the transaction on 2024-01-10?,Recovery Fees,Recovery Fees,True,True,EXACT,EXACT,EXACT
+case_006,"According to the brochure, what is advertised as a benefit of using EuroFX Solutions?","Maximize your returns, minimize your risk",EuroFX Solutions aims to help users maximize returns and minimize risk.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,What is the victim's country of residence?,Germany,Germany,True,True,EXACT,EXACT,EXACT
+case_006,What is the location of the fraudster?,Bulgaria,The fraudster is located in Bulgaria.,False,False,EXACT,EXACT,EXACT
+case_006,What did the victim pay for recovery fees?,€1500,The victim paid €1500 to secure funds and an additional €3000 to release funds.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,What is the reported education level of the victim?,High School,High School,True,True,EXACT,EXACT,EXACT
+case_006,"What language does the fraudster speak, in addition to Bulgarian?",German,The fraudster speaks German.,False,False,EXACT,EXACT,EXACT
+case_007,What is the fraud subtype in this case?,AI Trading Scam,AI Trading Scam,True,True,EXACT,EXACT,EXACT
+case_007,What is Klaus Weber’s age range?,55-64,55-64,True,True,EXACT,EXACT,EXACT
+case_007,Which company received the largest individual investment from Klaus Weber?,InnovAI Solutions Ltd,InnovAI Solutions Ltd,True,True,EXACT,EXACT,EXACT
+case_007,What is the destination country for the funds transferred to InnovAI Solutions Ltd?,St. Vincent and the Grenadines,The provided information does not specify a destination country for any funds.,False,False,WRONG,WRONG,WRONG
+case_007,When did Klaus Weber first make an investment with InnovAI?,2023-09-01,Klaus Weber first made an investment with InnovAI on 2023-09-01.,False,False,EXACT,EXACT,EXACT
+case_007,"According to the provided email, what is the supposed benefit of joining the InnovAI Beta Program?",Potentially double your investment in just weeks.,Participants in the InnovAI Beta Program may have the opportunity to double their investment within a few weeks.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_007,Which financial institution filed the SAR reports?,"Sparkasse Bank, Deutsche Bank",Sparkasse Bank and Deutsche Bank filed the SAR reports.,False,False,EXACT,EXACT,EXACT
+case_007,Is there any mention of cryptocurrency transactions in the bank statements?,"Yes, there is a transaction of BTC","Yes, there is a transaction of BTC.",True,True,EXACT,EXACT,EXACT
+case_008,What was the initial investment amount made by the victim?,€12000,The initial investment amount was €12000.,False,False,EXACT,EXACT,EXACT
+case_008,What company is repeatedly mentioned as the recipient of the victim’s funds?,Coral Financial Group Ltd,Coral Financial Group Ltd,True,True,EXACT,EXACT,EXACT
+case_008,What is the alleged purpose of the 'recovery fee' requested from the victim?,Processing fee to finalize the recovery process,The stated reason for the 'recovery fee' is to finalize the recovery process.,False,False,EXACT,EXACT,EXACT
+case_008,What type of financial instrument was the victim initially involved in?,Forex Trading,The victim was initially involved in Forex Trading.,False,False,EXACT,EXACT,EXACT
+case_008,What language(s) are spoken by the fraudster?,English and Spanish,English and Spanish.,True,True,EXACT,EXACT,EXACT
+case_008,What is the domain name used in the recovery brochure?,www.secureassetretrieval.net,The recovery brochure mentions www.secureassetretrieval.net.,False,False,EXACT,EXACT,EXACT
+case_008,"Which account received the largest amount of money, and what was the date of that transaction?","Coral Financial Group Ltd, 2023-04-22","Coral Financial Group Ltd received the largest amount of money, and the date of that transaction was 2023-04-22.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_008,What country is the fraudster based in?,Belize,The fraudster is based in Belize.,False,False,EXACT,EXACT,EXACT
+case_009,What is the primary fraud type in this case?,Investment Fraud,Investment Fraud,True,True,EXACT,EXACT,EXACT
+case_009,What is the victim’s name?,Klaus Bergmann,Klaus Bergmann,True,True,EXACT,EXACT,EXACT
+case_009,Which company is mentioned in both the promotional brochure and the bank statement?,Adriatic Forex Solutions Ltd,Adriatic Forex Solutions Ltd,True,True,EXACT,EXACT,EXACT
+case_009,What amount did the victim pay as a 'processing fee'?,€375,The victim paid €375 as a 'processing fee'.,False,False,EXACT,EXACT,EXACT
+case_009,What is the stated purpose of the first transaction recorded in the SAR file?,Initial Investment,Initial Investment,True,True,EXACT,EXACT,EXACT
+case_009,"According to the email, what is the reason provided for the processing fee?",Market volatility,Market volatility.,True,True,EXACT,EXACT,EXACT
+case_009,"What is the country of registration for Adriatic Forex Solutions Ltd, as mentioned in the SAR file?",Cyprus,Cyprus,True,True,EXACT,EXACT,EXACT
+case_009,"What is the primary language spoken by the fraudster, according to the metadata?",English,English,True,True,EXACT,EXACT,EXACT
+case_009,What is the account number of the victim’s account at Raiffeisenbank Austria?,AT4233000000001234567890,AT4233000000001234567890,True,True,EXACT,EXACT,EXACT
+case_009,What does the website screenshot description indicate about the displayed profit graph?,Results not typical,"The screenshot depicts a graph that is presented as demonstrating consistent profit growth over time. However, a disclaimer indicates that the results shown are not typical.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_010,What is the victim's account number?,DE8770100500000000100234,DE8770100500000000100234,True,True,EXACT,EXACT,EXACT
+case_010,What is the reported fraud type?,Investment Fraud,Investment Fraud.,True,True,EXACT,EXACT,EXACT
+case_010,What was the purpose of the transaction on 2023-10-27?,NFT Purchase,NFT Purchase,True,True,EXACT,EXACT,EXACT
+case_010,Which company is mentioned in both promotional material and bank statements?,Venture Galactic Ltd,Venture Galactic Ltd,True,True,EXACT,EXACT,EXACT
+case_010,What is the destination country for the funds transferred from Klaus Eberhardt’s account?,Malta,The destination account is with MT18BANKMT.,False,False,WRONG,WRONG,WRONG
+case_010,What was the amount of the initial investment made by the victim?,12000,The initial investment made by the victim was 12000.,False,False,EXACT,EXACT,EXACT
+case_010,What is the occupation of the victim?,None,The victim's occupation is none.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_010,Which European country does the fraudster reside in?,Serbia,The fraudster resides in Serbia.,False,False,EXACT,EXACT,EXACT
+case_010,What type of digital asset was involved in the fraud?,NFT,NFT,True,True,EXACT,EXACT,EXACT
+case_010,Which company initially reported this activity?,Sparkasse Bank,Sparkasse Bank initially reported this activity.,False,False,EXACT,EXACT,EXACT
