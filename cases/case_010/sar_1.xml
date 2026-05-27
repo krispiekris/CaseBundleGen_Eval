@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SAR>
-  <ReportID>FIN2024-012</ReportID>
-  <ReportingInstitution>Sparkasse Bank</ReportingInstitution>
+  <ReportID>INV2024-017-001</ReportID>
+  <ReportingInstitution>Deutsche Bank</ReportingInstitution>
   <Subject>
-    <Name>Klaus Eberhardt</Name>
-    <Account>DE8770100500000000100234</Account>
+    <Name>Victim 1</Name>
+    <Account>GR1601101250000000012310695</Account>
   </Subject>
   <Transaction>
-    <Date>2023-10-27</Date>
+    <Date>2023-09-01</Date>
     <Amount>12000</Amount>
     <Currency>EUR</Currency>
-    <DestinationAccount>MT18BANKMT01010001234567</DestinationAccount>
-    <DestinationName>Venture Galactic Ltd</DestinationName>
-    <Purpose>NFT Purchase</Purpose>
+    <DestinationAccount>LT12100001110123451</DestinationAccount>
+    <DestinationName>NovaTrade AI</DestinationName>
+    <Purpose>Investment</Purpose>
   </Transaction>
+  <Transaction>
+    <Date>2023-11-10</Date>
+    <Amount>500</Amount>
+    <Currency>EUR</Currency>
+    <DestinationAccount>LT12100001110123451</DestinationAccount>
+    <DestinationName>NovaTrade AI</DestinationName>
+    <Purpose>Withdrawal</Purpose>
+  </Transaction>
+  <Findings>Suspicious deposit followed by small withdrawal, potentially related to investment fraud.</Findings>
 </SAR>

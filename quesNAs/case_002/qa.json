@@ -1,34 +1,42 @@
 [
   {
-    "question": "What is the victim's account number?",
-    "answer": "DE87370400440532113014"
+    "question": "What is the Report ID for the SAR filed by Commerzbank?",
+    "answer": "DEU2023-123"
   },
   {
-    "question": "What company did the victim initially transfer funds to?",
-    "answer": "Aetheria Collective Ltd"
+    "question": "According to the bank statement, what was the initial transfer amount into Victim 1's account?",
+    "answer": "12000 EUR"
   },
   {
-    "question": "When was the SAR filed?",
-    "answer": "2023-06-22"
+    "question": "Which company name appears in the SAR filed by \u0160iauli\u0173 bankas (LTU2024-007)?",
+    "answer": "Altalytics GmbH"
   },
   {
-    "question": "What is the reported fraud subtype?",
-    "answer": "NFT Scam"
+    "question": "What did the email from support@athenaaitrader.com claim about the AI algorithms used by AthenaAI Trader?",
+    "answer": "They analyze complex data patterns to generate consistent profits \u2013 even in volatile market conditions."
   },
   {
-    "question": "What currency was used for the initial investment?",
-    "answer": "EUR"
+    "question": "What was the purpose of the transaction on 2024-01-10 according to the SAR filed by Erste Bank?",
+    "answer": "Withdrawal Attempt"
   },
   {
-    "question": "What is the name of the reporting institution?",
-    "answer": "Deutsche Kreditbank"
+    "question": "What is the destination account mentioned in sar_1.xml?",
+    "answer": "LT12100001110123451"
   },
   {
-    "question": "What is one of the destination countries associated with the fraud?",
-    "answer": "Malta"
+    "question": "What action did Erste Bank take regarding the withdrawal attempt on 2024-01-10?",
+    "answer": "Withdrawal attempt denied due to insufficient funds."
   },
   {
-    "question": "What email subject line was used to initially contact the victim?",
-    "answer": "Limited Time Offer: Aetheria Collective Invitation"
+    "question": "According to the brochure, what is one of the guarantees provided by AthenaAI Trader?",
+    "answer": "Enjoy market-beating returns, guaranteed."
+  },
+  {
+    "question": "What subject line did the email claiming to be from a recovery specialist use?",
+    "answer": "Urgent: Potential Funds Recovery \u2013 AthenaAI Trader"
+  },
+  {
+    "question": "What does the website screenshot suggest about the AthenaAI Trader website?",
+    "answer": "The website features prominently displayed graphics showcasing rapidly increasing graphs and charts."
   }
 ]

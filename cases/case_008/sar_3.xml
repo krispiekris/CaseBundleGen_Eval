@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SAR>
-  <ReportID>IR2024-005</ReportID>
-  <ReportingInstitution>Allied Irish Bank</ReportingInstitution>
+  <ReportID>CY2024-050</ReportID>
+  <ReportingInstitution>Cyprus Global Bank</ReportingInstitution>
   <Subject>
-    <Name>Eamon O'Connell</Name>
-    <Account>IE47AIBK94221672283000</Account>
+    <Name>Automated Investments SRL</Name>
+    <Account>CY0100000100012345678</Account>
   </Subject>
   <Transaction>
-    <Date>2023-07-15</Date>
-    <Amount>3000</Amount>
+    <Date>2023-12-01</Date>
+    <Amount>2500</Amount>
     <Currency>EUR</Currency>
-    <DestinationAccount>SC20123456789</DestinationAccount>
-    <DestinationName>Sea Breeze Investments</DestinationName>
-    <Purpose>Recovery Fee</Purpose>
+    <DestinationAccount>AT112011103511000000</DestinationAccount>
+    <DestinationName>Helmut Gruber</DestinationName>
+    <Purpose>Investment</Purpose>
   </Transaction>
+  <Findings>Pattern of receiving funds from overseas and transferring to single accounts.</Findings>
 </SAR>

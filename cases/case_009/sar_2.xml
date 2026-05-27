@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SAR>
-  <ReportID>AUT2024-004</ReportID>
-  <ReportingInstitution>Sparkasse Austria</ReportingInstitution>
+  <ReportID>INV2024-032-SAR2</ReportID>
+  <ReportingInstitution>Lloyds Bank (UK)</ReportingInstitution>
   <Subject>
-    <Name>Klaus Bergmann</Name>
-    <Account>AT50500000000001234567</Account>
+    <Name>Altcoin Global Ltd</Name>
   </Subject>
   <Transaction>
-    <Date>2023-11-15</Date>
-    <Amount>375</Amount>
+    <Date>2023-09-10</Date>
+    <Amount>15000</Amount>
     <Currency>EUR</Currency>
-    <DestinationAccount>GB98NWBK2070045155001</DestinationAccount>
-    <DestinationName>Hargrave Financial Services</DestinationName>
-    <Purpose>Processing Fee</Purpose>
+    <DestinationAccount>GB27LYB10010001234567</DestinationAccount>
+    <DestinationName>John Doe</DestinationName>
+    <Purpose>Consultancy Fees</Purpose>
   </Transaction>
+  <Findings>Large, frequent transfers received from various sources across Europe.  Beneficiary residing in Belize, operating under an ambiguous business model.</Findings>
 </SAR>

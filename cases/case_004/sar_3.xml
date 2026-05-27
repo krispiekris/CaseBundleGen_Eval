@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAR>
+  <ReportID>INV2024-017-003</ReportID>
+  <ReportingInstitution>Europol</ReportingInstitution>
+  <Subject>
+    <Name>Golden Horizon Ltd</Name>
+    <Account>RS12345678901234567890</Account>
+  </Subject>
+  <Findings>Linked to a network of fraudulent investment schemes operating in Serbia and Cyprus. Used to funnel funds internationally.  Investigative priority.</Findings>
+</SAR>

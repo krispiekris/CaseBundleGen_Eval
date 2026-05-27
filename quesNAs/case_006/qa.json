@@ -1,42 +1,42 @@
 [
   {
-    "question": "What is the reported fraud type in this case?",
-    "answer": "Forex Scam"
+    "question": "What is the report ID for the suspicious activity related to Hans Schmidt?",
+    "answer": "DE2024-0089"
   },
   {
-    "question": "Which company is consistently mentioned in the transaction history and reports?",
-    "answer": "EuroFX Solutions Ltd"
+    "question": "What is the destination account used for the investments according to the SAR files?",
+    "answer": "BZ010000000000000000"
   },
   {
-    "question": "Approximately how much money did the victim initially invest?",
-    "answer": "\u20ac8000"
+    "question": "According to the brochure, what technology does NovaTrade AI claim to use?",
+    "answer": "Artificial intelligence"
   },
   {
-    "question": "What is the purpose of the transaction on 2024-01-10?",
-    "answer": "Recovery Fees"
+    "question": "What is the purpose of the email sent from verification@novatrade.co?",
+    "answer": "To request additional verification documents, specifically a passport and utility bill."
   },
   {
-    "question": "According to the brochure, what is advertised as a benefit of using EuroFX Solutions?",
-    "answer": "Maximize your returns, minimize your risk"
+    "question": "Besides Hans Schmidt, who else is identified as a potential victim in the case files?",
+    "answer": "Anna Weber and Boris Volkov"
   },
   {
-    "question": "What is the victim's country of residence?",
-    "answer": "Germany"
+    "question": "What amount did NovaTrade AI suggest Hans Schmidt deposit according to email_2.txt?",
+    "answer": "\u20ac3,000"
   },
   {
-    "question": "What is the location of the fraudster?",
-    "answer": "Bulgaria"
+    "question": "What does the website screenshot_1.txt mention about NovaTrade AI's returns?",
+    "answer": "It promises \u2018Guaranteed ROI\u2019"
   },
   {
-    "question": "What did the victim pay for recovery fees?",
-    "answer": "\u20ac1500"
+    "question": "Which institution filed the report with ID AT2024-0123?",
+    "answer": "Raiffeisenbank International"
   },
   {
-    "question": "What is the reported education level of the victim?",
-    "answer": "High School"
+    "question": "What is the stated purpose for the transactions observed in the SAR files?",
+    "answer": "Investment"
   },
   {
-    "question": "What language does the fraudster speak, in addition to Bulgarian?",
-    "answer": "German"
+    "question": "What bonus is advertised in the email sent to all potential victims?",
+    "answer": "A 15% bonus on their first deposit"
   }
 ]

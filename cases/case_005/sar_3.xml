@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAR>
+  <ReportID>INV2024-027-HK001</ReportID>
+  <ReportingInstitution>Standard Chartered</ReportingInstitution>
+  <Subject>
+    <Name>Hong Kong Company Ltd</Name>
+    <Account>00123456789</Account>
+  </Subject>
+  <Transaction>
+    <Date>2024-01-12</Date>
+    <Amount>4800</Amount>
+    <Currency>EUR</Currency>
+    <DestinationAccount>Belize Account</DestinationAccount>
+    <DestinationName>Unknown</DestinationName>
+    <Purpose>Investment</Purpose>
+  </Transaction>
+  <Findings>
+    <SuspiciousActivity>Receiving large sums from UK bank with no clear business rationale.</SuspiciousActivity>
+    <RiskAssessment>High</RiskAssessment>
+  </Findings>
+</SAR>

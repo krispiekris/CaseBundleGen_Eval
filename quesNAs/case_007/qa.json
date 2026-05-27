@@ -1,34 +1,42 @@
 [
   {
-    "question": "What is the fraud subtype in this case?",
-    "answer": "AI Trading Scam"
+    "question": "What is the report ID of the SAR filed by Erste Bank?",
+    "answer": "INV2024-017-SAR2"
   },
   {
-    "question": "What is Klaus Weber\u2019s age range?",
-    "answer": "55-64"
+    "question": "According to the brochure, what is a key feature of NovaTrade AI's trading?",
+    "answer": "AI-Powered Trading: Our advanced algorithms work 24/7 to maximize your profits."
   },
   {
-    "question": "Which company received the largest individual investment from Klaus Weber?",
-    "answer": "InnovAI Solutions Ltd"
+    "question": "What was the purpose of the transaction on 2023-09-01?",
+    "answer": "Investment"
   },
   {
-    "question": "What is the destination country for the funds transferred to InnovAI Solutions Ltd?",
-    "answer": "St. Vincent and the Grenadines"
+    "question": "What additional investment was requested from Hans Gruber according to email_3?",
+    "answer": "500 EUR"
   },
   {
-    "question": "When did Klaus Weber first make an investment with InnovAI?",
-    "answer": "2023-09-01"
+    "question": "Which bank initially reported the suspicious activity?",
+    "answer": "Volksbank Wien"
   },
   {
-    "question": "According to the provided email, what is the supposed benefit of joining the InnovAI Beta Program?",
-    "answer": "Potentially double your investment in just weeks."
+    "question": "What is the destination account for the initial deposit of 12000 EUR?",
+    "answer": "CY7000300000000000"
   },
   {
-    "question": "Which financial institution filed the SAR reports?",
-    "answer": "Sparkasse Bank, Deutsche Bank"
+    "question": "What entity is associated with the withdrawal request of 1000 EUR?",
+    "answer": "Altcoin Global Ltd"
   },
   {
-    "question": "Is there any mention of cryptocurrency transactions in the bank statements?",
-    "answer": "Yes, there is a transaction of BTC"
+    "question": "What is the ROI promised by NovaTrade AI in email_2?",
+    "answer": "An average ROI of 20% per week."
+  },
+  {
+    "question": "What does SAR 3 identify as the destination of funds transferred from Altcoin Global Ltd?",
+    "answer": "Unknown"
+  },
+  {
+    "question": "According to website_screenshot_1, what are the testimonials on the NovaTrade AI website?",
+    "answer": "Testimonials from 'satisfied users' with generic stock photos."
   }
 ]

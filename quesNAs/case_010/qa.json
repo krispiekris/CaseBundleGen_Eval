@@ -1,42 +1,42 @@
 [
   {
-    "question": "What is the victim's account number?",
-    "answer": "DE8770100500000000100234"
+    "question": "According to the SAR, what is the primary purpose of the first transaction from Victim 1 to NovaTrade AI?",
+    "answer": "Investment"
   },
   {
-    "question": "What is the reported fraud type?",
-    "answer": "Investment Fraud"
+    "question": "What does the brochure claim about the NovaTrade AI platform?",
+    "answer": "It claims the platform is 'Secure & Transparent'."
   },
   {
-    "question": "What was the purpose of the transaction on 2023-10-27?",
-    "answer": "NFT Purchase"
+    "question": "What amount of processing fee was requested from Victim 1 for the withdrawal?",
+    "answer": "50 EUR"
   },
   {
-    "question": "Which company is mentioned in both promotional material and bank statements?",
-    "answer": "Venture Galactic Ltd"
+    "question": "What is the account number for NovaTrade AI in Belize International Bank?",
+    "answer": "BZ1234567890"
   },
   {
-    "question": "What is the destination country for the funds transferred from Klaus Eberhardt\u2019s account?",
-    "answer": "Malta"
-  },
-  {
-    "question": "What was the amount of the initial investment made by the victim?",
-    "answer": "12000"
-  },
-  {
-    "question": "What is the occupation of the victim?",
+    "question": "Besides EUR, are any other currencies involved in the reported transactions?",
     "answer": "None"
   },
   {
-    "question": "Which European country does the fraudster reside in?",
-    "answer": "Serbia"
+    "question": "What is the purpose of the second transaction from Victim 1's account to NovaTrade AI?",
+    "answer": "Withdrawal"
   },
   {
-    "question": "What type of digital asset was involved in the fraud?",
-    "answer": "NFT"
+    "question": "What is the name of the company that pays Victim 1's salary?",
+    "answer": "Company A"
   },
   {
-    "question": "Which company initially reported this activity?",
-    "answer": "Sparkasse Bank"
+    "question": "What types of testimonials are featured on the NovaTrade AI website?",
+    "answer": "Testimonials claim high returns and ease of use."
+  },
+  {
+    "question": "What is the finding described in SAR 3?",
+    "answer": "Transfers to offshore account with no apparent business purpose. Potential money laundering."
+  },
+  {
+    "question": "What email address was used to send the initial recruitment email to Victim 1?",
+    "answer": "recruiter@novatrade.fake"
   }
 ]

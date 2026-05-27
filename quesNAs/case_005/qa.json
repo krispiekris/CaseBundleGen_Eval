@@ -1,34 +1,42 @@
 [
   {
-    "question": "What is the victim\u2019s account number?",
-    "answer": "NL97ABNA0123456789"
+    "question": "What is the ReportID for the Suspicious Activity Report (SAR) filed by ABN AMRO?",
+    "answer": "INV2024-027-001"
   },
   {
-    "question": "What is the stated purpose of the transaction on November 1st, 2023, according to the SAR?",
-    "answer": "NFT Withdrawal Request"
+    "question": "What amount did Victim 1 initially invest with Altcoin Global Ltd, according to the bank statement?",
+    "answer": "5000 EUR"
   },
   {
-    "question": "Which company received the largest transfer from the victim?",
-    "answer": "ArtGenesis Ltd."
+    "question": "According to promotional material, what is the main benefit offered by QuantumFX AI Trader?",
+    "answer": "Unparalleled returns"
   },
   {
-    "question": "What is the name of the person who invited Pieter van der Meer to join ArtGenesis?",
-    "answer": "Alexander"
+    "question": "What is the purpose stated for the transaction in the SAR filed by HSBC regarding Altcoin Global Ltd?",
+    "answer": "Investment"
   },
   {
-    "question": "What country is associated with the bank account used by Dimitar Petrov?",
-    "answer": "Bulgaria"
+    "question": "What is the DestinationAccount where Altcoin Global Ltd transferred funds to according to the SAR filed by ABN AMRO?",
+    "answer": "LT12100001110123451"
   },
   {
-    "question": "What type of asset was involved in this fraud case?",
-    "answer": "NFTs"
+    "question": "What is the stated reason for the delay in Victim 1's withdrawal request, according to the fourth email?",
+    "answer": "High transaction volume"
   },
   {
-    "question": "What is the URL mentioned in the ArtGenesis brochure?",
-    "answer": "www.artgenesis.fake"
+    "question": "What account did Hong Kong Company Ltd. transfer funds to, as stated in the SAR filed by Standard Chartered?",
+    "answer": "Belize Account"
   },
   {
-    "question": "According to the email, what is the limited-time offer from ArtGenesis?",
-    "answer": "Double Your Investment"
+    "question": "Besides the Netherlands, which other countries are involved in the money transfers?",
+    "answer": "United Kingdom and Belize"
+  },
+  {
+    "question": "What did the screenshot of the QuantumFX website describe about its design?",
+    "answer": "Clean, modern interface intended to convey trustworthiness and sophistication"
+  },
+  {
+    "question": "What risk assessment was assigned to the transaction by ABN AMRO?",
+    "answer": "High"
   }
 ]

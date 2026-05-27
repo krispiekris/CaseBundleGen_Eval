@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SAR>
-  <ReportID>AUT2024-003</ReportID>
-  <ReportingInstitution>Raiffeisenbank Austria</ReportingInstitution>
+  <ReportID>INV2024-032-SAR1</ReportID>
+  <ReportingInstitution>Sparkasse Bank</ReportingInstitution>
   <Subject>
-    <Name>Klaus Bergmann</Name>
-    <Account>AT4233000000001234567890</Account>
+    <Name>Hans Schmidt</Name>
+    <Account>DE8770020290000000000123</Account>
   </Subject>
   <Transaction>
-    <Date>2023-09-22</Date>
-    <Amount>7500</Amount>
+    <Date>2023-09-05</Date>
+    <Amount>12000</Amount>
     <Currency>EUR</Currency>
-    <DestinationAccount>SC230019025700000001</DestinationAccount>
-    <DestinationName>Adriatic Forex Solutions Ltd</DestinationName>
-    <Purpose>Initial Investment</Purpose>
+    <DestinationAccount>BZ1206005000000100000000</DestinationAccount>
+    <DestinationName>QuantumAI Solutions Ltd</DestinationName>
+    <Purpose>Investment</Purpose>
   </Transaction>
+  <Findings>Unusually large transfer to Belize-based company. The stated purpose of investment is concerning given the limited interaction prior to the transfer.</Findings>
 </SAR>

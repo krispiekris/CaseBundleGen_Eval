@@ -1,6 +1,5 @@
 Date,Description,Amount,Currency,Beneficiary
-2023-08-05,-1200,EUR,Supermarket
-2023-08-15,Wire Transfer,-5000,EUR,NovaTech Investments EOOD
-2023-09-22,Salary,3500,EUR,Stadsverzekeringen
-2023-10-15,Wire Transfer,-2500,EUR,NovaTech Investments EOOD
-2024-01-15,Wire Transfer,-1000,EUR,NovaTech Investments EOOD
+2023-11-20,Transfer to QuantumLeap,-2000,EUR,QuantumLeap Investments Ltd
+2023-12-01,Investment,5000,EUR,QuantumLeap Investments Ltd
+2024-01-10,Investment,2500,EUR,QuantumLeap Investments Ltd
+2024-02-15,Withdrawal Request,,-EUR,

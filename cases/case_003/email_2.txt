@@ -1,8 +1,12 @@
-Subject: Important Notice Regarding Your Nova Arte Account
+From: QuantumAlgo Verification <verify@quantumalgo.fake>
+To: Victim 1 <victim1@email.at>
+Subject: KYC Verification Required
 
-Dear Reinier,
+Dear Victim 1,
 
-We’ve noticed recent activity on your account. To ensure the security of your investments, please verify your credentials and provide further documentation.
+To comply with regulatory requirements, we require you to submit a copy of your passport or government-issued ID.  This will help us verify your identity and ensure your account security.
 
-Regards,
-Nova Arte Support
+Click here to upload your documents: www.quantumalgo.fake/kyc
+
+Thank you for your cooperation.
+The QuantumAlgo Team

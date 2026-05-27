@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SAR>
-  <ReportID>IRL2024-007</ReportID>
-  <ReportingInstitution>AIB Bank</ReportingInstitution>
+  <ReportID>INV2024-017-001</ReportID>
+  <ReportingInstitution>ABN AMRO</ReportingInstitution>
   <Subject>
-    <Name>Aoife Byrne</Name>
-    <Account>IE42AIBK94470243958013</Account>
+    <Name>Victim 1</Name>
+    <Account>GR1601101250000000012310695</Account>
   </Subject>
   <Transaction>
-    <Date>2023-08-22</Date>
-    <Amount>5000</Amount>
+    <Date>2023-09-01</Date>
+    <Amount>12000</Amount>
     <Currency>EUR</Currency>
-    <DestinationAccount>MT12VAGL0000000000012345</DestinationAccount>
-    <DestinationName>ArtVerse Collective Ltd</DestinationName>
-    <Purpose>Investment in NFT project</Purpose>
+    <DestinationAccount>CY610020000100000000000000</DestinationAccount>
+    <DestinationName>NovaTech Investments Ltd</DestinationName>
+    <Purpose>Investment</Purpose>
   </Transaction>
+  <Transaction>
+    <Date>2023-09-15</Date>
+    <Amount>3000</Amount>
+    <Currency>EUR</Currency>
+    <DestinationAccount>CY610020000100000000000000</DestinationAccount>
+    <DestinationName>NovaTech Investments Ltd</DestinationName>
+    <Purpose>Investment</Purpose>
+  </Transaction>
+  <Findings>Unusual activity – frequent transfers to Cyprus-based investment firm. Source of funds unclear. Potential investment fraud.</Findings>
 </SAR>

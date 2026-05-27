@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAR>
+  <ReportID>AT2024-1234</ReportID>
+  <ReportingInstitution>Creditas Bank Austria</ReportingInstitution>
+  <Subject>
+    <Name>Victim 1</Name>
+    <Account>GR1601101250000000012310695</Account>
+  </Subject>
+  <Transaction>
+    <Date>2024-01-10</Date>
+    <Amount>15000</Amount>
+    <Currency>EUR</Currency>
+    <DestinationAccount>BM000000000000000000</DestinationAccount>
+    <DestinationName>QuantumAlgo Ltd</DestinationName>
+    <Purpose>Investment</Purpose>
+  </Transaction>
+  <Transaction>
+    <Date>2023-11-15</Date>
+    <Amount>300</Amount>
+    <Currency>EUR</Currency>
+    <DestinationAccount>BM000000000000000000</DestinationAccount>
+    <DestinationName>QuantumAlgo Ltd</DestinationName>
+    <Purpose>Withdrawal</Purpose>
+  </Transaction>
+  <Findings>Multiple large transfers to an entity registered in Belize.  Unusual investment activity given the customer's profile.</Findings>
+</SAR>

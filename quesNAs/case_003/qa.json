@@ -1,42 +1,42 @@
 [
   {
-    "question": "What is the victim's occupation according to the bank statements?",
-    "answer": "Salary earner at Van Houten & Zn."
+    "question": "What is the name of the reporting institution in SAR AT2024-1234?",
+    "answer": "Creditas Bank Austria"
   },
   {
-    "question": "Which company received the largest single transaction from the victim?",
-    "answer": "Celestial Arts Holdings Ltd"
+    "question": "According to the promotional material, what technology is used by QuantumAlgo?",
+    "answer": "AI-powered trading platform"
   },
   {
-    "question": "What date did the victim first interact with the fraudulent entity?",
-    "answer": "2023-08-15"
+    "question": "What is the purpose of the transaction on 2024-01-10 involving Victim 1's account?",
+    "answer": "Investment"
   },
   {
-    "question": "What countries are listed as destination countries for the funds?",
-    "answer": "Hong Kong, Seychelles, Portugal"
+    "question": "What KYC documentation does QuantumAlgo request from Victim 1?",
+    "answer": "A copy of their passport or government-issued ID"
   },
   {
-    "question": "What type of asset was purchased by the victim?",
-    "answer": "NFTs"
+    "question": "What is the main reason for the processing fee mentioned in email_3?",
+    "answer": "Increased security measures"
   },
   {
-    "question": "What is the main purpose of the email sent on 2023-10-03?",
-    "answer": "To request KYC documentation"
+    "question": "What is the purpose of the transactions involving the 'Affiliate Marketer' accounts?",
+    "answer": "Commission"
   },
   {
-    "question": "What is a common theme shared between the promotional brochure and the emails?",
-    "answer": "Exclusive access and limited-time offers"
+    "question": "What is the account number associated with Victim 1 in SAR AT2024-1234?",
+    "answer": "GR1601101250000000012310695"
   },
   {
-    "question": "Which language is spoken by the fraudster?",
-    "answer": "English"
+    "question": "Based on the website screenshot, what visual elements are used to portray QuantumAlgo?",
+    "answer": "Sleek, modern design with animated charts and graphs demonstrating impressive returns, prominent testimonials, and a 'Join Now' button."
   },
   {
-    "question": "Does the name of the beneficiary in the SAR match with those found in the email content?",
-    "answer": "Celestial Arts Holdings Ltd"
+    "question": "What is the destination account used for all transactions mentioned in the provided files?",
+    "answer": "BM000000000000000000"
   },
   {
-    "question": "What is the reported institution in the first SAR file?",
-    "answer": "ABN AMRO"
+    "question": "What is the link provided in the email regarding KYC verification?",
+    "answer": "www.quantumalgo.fake/kyc"
   }
 ]

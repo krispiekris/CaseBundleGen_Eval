@@ -1,6 +1,12 @@
-Dear Hendrik,
+Subject: Important Security Alert - Account Verification Required
 
-Due to unforeseen circumstances, your Automatix account requires an urgent verification fee of €500.  Please transfer to the following account: RS3020500000000000001432.
+Dear Customer,
 
-Regards,
-Automatix Compliance
+We have detected unusual activity on your QuantumLeap Investments account. To ensure the security of your funds, please verify your account details by clicking the link below:
+
+[Fake verification link]
+
+Failure to verify your account within 24 hours may result in suspension of your account.
+
+Sincerely,
+QuantumLeap Investments Support

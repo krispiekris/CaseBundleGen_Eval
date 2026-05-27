@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SAR>
-  <ReportID>GER2024-005</ReportID>
-  <ReportingInstitution>Sparkasse Bank</ReportingInstitution>
+  <ReportID>DE2024-0089</ReportID>
+  <ReportingInstitution>Sparkasse Nürnberg</ReportingInstitution>
   <Subject>
-    <Name>Klaus Hoffmann</Name>
-    <Account>DE1272150000001234567890</Account>
+    <Name>Hans Schmidt</Name>
+    <Account>DE87750508000030003587</Account>
   </Subject>
   <Transaction>
-    <Date>2023-09-22</Date>
-    <Amount>8000</Amount>
+    <Date>2023-09-01</Date>
+    <Amount>2000</Amount>
     <Currency>EUR</Currency>
-    <DestinationAccount>SC203203000000001234</DestinationAccount>
-    <DestinationName>EuroFX Solutions Ltd</DestinationName>
-    <Purpose>Initial Investment</Purpose>
+    <DestinationAccount>BZ010000000000000000</DestinationAccount>
+    <DestinationName>NovaTrade AI Ltd</DestinationName>
+    <Purpose>Investment</Purpose>
   </Transaction>
+  <Transaction>
+    <Date>2023-10-10</Date>
+    <Amount>500</Amount>
+    <Currency>EUR</Currency>
+    <DestinationAccount>BZ010000000000000000</DestinationAccount>
+    <DestinationName>NovaTrade AI Ltd</DestinationName>
+    <Purpose>Investment</Purpose>
+  </Transaction>
+  <Findings>Unusual investment activity. Large sum transferred to offshore account.</Findings>
 </SAR>

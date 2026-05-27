@@ -1,91 +1,101 @@
 case_id,question,expected_answer,predicted_answer,exact_match,similar_match,judge_label,judge_raw,judge_normalized
-case_001,What is the fraud subtype in this case?,AI Trading Scam,AI Trading Scam,True,True,EXACT,EXACT,EXACT
-case_001,What is the victim's country of residence?,Netherlands,The victim resides in the Netherlands.,False,False,EXACT,EXACT,EXACT
-case_001,Which bank handled the victim’s transactions?,ABN AMRO,ABN AMRO,True,True,EXACT,EXACT,EXACT
-case_001,What is the initial amount invested by the victim?,€5000,The victim initially invested 5000 euros.,False,False,EXACT,EXACT,EXACT
-case_001,What is the name of the company that received the victim's investments?,NovaTech Investments EOOD,NovaTech Investments EOOD,True,True,EXACT,EXACT,EXACT
-case_001,What is the destination account where the victim was asked to transfer a 'verification fee'?,RS3020500000000000001432,RS3020500000000000001432,True,True,EXACT,EXACT,EXACT
-case_001,What is the name of the fraudster mentioned in the SAR?,Dimitri Petrov,The name of the subject is Dimitri Petrov.,False,False,EXACT,EXACT,EXACT
-case_001,"According to the bank statement, what was the largest debit transaction?",-5000,The largest debit transaction was 5000 EUR to NovaTech Investments EOOD.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_002,What is the victim's account number?,DE87370400440532113014,DE87370400440532113014,True,True,EXACT,EXACT,EXACT
-case_002,What company did the victim initially transfer funds to?,Aetheria Collective Ltd,Aetheria Collective Ltd,True,True,EXACT,EXACT,EXACT
-case_002,When was the SAR filed?,2023-06-22,"The SARs were filed on April 1st, 2023 and May 15th, 2023.",False,False,WRONG,WRONG,WRONG
-case_002,What is the reported fraud subtype?,NFT Scam,NFT Scam,True,True,EXACT,EXACT,EXACT
-case_002,What currency was used for the initial investment?,EUR,The investment involved EUR currency.,False,False,EXACT,EXACT,EXACT
-case_002,What is the name of the reporting institution?,Deutsche Kreditbank,Deutsche Kreditbank,True,True,EXACT,EXACT,EXACT
-case_002,What is one of the destination countries associated with the fraud?,Malta,Malta.,True,True,EXACT,EXACT,EXACT
-case_002,What email subject line was used to initially contact the victim?,Limited Time Offer: Aetheria Collective Invitation,Limited Time Offer: Aetheria Collective Invitation,True,True,EXACT,EXACT,EXACT
-case_003,What is the victim's occupation according to the bank statements?,Salary earner at Van Houten & Zn.,Salary earner at Van Houten & Zn.,True,True,EXACT,EXACT,EXACT
-case_003,Which company received the largest single transaction from the victim?,Celestial Arts Holdings Ltd,Celestial Arts Holdings Ltd,True,True,EXACT,EXACT,EXACT
-case_003,What date did the victim first interact with the fraudulent entity?,2023-08-15,2023-08-15,True,True,EXACT,EXACT,EXACT
-case_003,What countries are listed as destination countries for the funds?,"Hong Kong, Seychelles, Portugal","Hong Kong, Seychelles, and Portugal.",False,True,PARTIAL,PARTIAL,PARTIAL
-case_003,What type of asset was purchased by the victim?,NFTs,NFTs,True,True,EXACT,EXACT,EXACT
-case_003,What is the main purpose of the email sent on 2023-10-03?,To request KYC documentation,To request KYC documentation.,True,True,EXACT,EXACT,EXACT
-case_003,What is a common theme shared between the promotional brochure and the emails?,Exclusive access and limited-time offers,Exclusive access and limited-time offers.,True,True,EXACT,EXACT,EXACT
-case_003,Which language is spoken by the fraudster?,English,English.,True,True,EXACT,EXACT,EXACT
-case_003,Does the name of the beneficiary in the SAR match with those found in the email content?,Celestial Arts Holdings Ltd,Celestial Arts Holdings Ltd,True,True,EXACT,EXACT,EXACT
-case_003,What is the reported institution in the first SAR file?,ABN AMRO,The reported institution in the first SAR file is ING.,False,False,WRONG,WRONG,WRONG
-case_004,What is the name of the company the victim initially invested in?,ArtVerse Collective Ltd,ArtVerse Collective Ltd,True,True,EXACT,EXACT,EXACT
-case_004,What currency was used for the initial investment transaction?,EUR,The currency used for the initial investment transaction was EUR.,False,False,EXACT,EXACT,EXACT
-case_004,Which country's bank reported the suspicious activity?,Ireland,Ireland.,True,True,EXACT,EXACT,EXACT
-case_004,"According to the files, what type of asset was the victim invested in?",NFT,The victim was invested in an NFT.,False,False,EXACT,EXACT,EXACT
-case_004,"Who is the recipient of the money wired from the victim’s account on August 22, 2023?",ArtVerse Collective Ltd,ArtVerse Collective Ltd,True,True,EXACT,EXACT,EXACT
-case_004,What is mentioned on the website screenshot?,The screenshot shows a branded page with promotions and testimonials from 'verified investors'.,The screenshot shows a branded page with promotions and testimonials from 'verified investors'.,True,True,EXACT,EXACT,EXACT
-case_004,What is the report ID for the SAR filed with AIB Bank?,IRL2024-007,IRL2024-007,True,True,EXACT,EXACT,EXACT
-case_004,What was the purpose of the transaction recorded in sar_1.xml?,Investment in NFT project,The purpose of the transaction was investment in an NFT project.,False,False,EXACT,EXACT,EXACT
-case_004,What company employed the victim?,Eaton Pharmaceuticals,The victim was employed by Eaton Pharmaceuticals.,False,False,EXACT,EXACT,EXACT
-case_004,What is the account number of Aoife Byrne?,IE42AIBK94470243958013,Aoife Byrne's account number is IE42AIBK94470243958013.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_005,What is the victim’s account number?,NL97ABNA0123456789,NL97ABNA0123456789,True,True,EXACT,EXACT,EXACT
-case_005,"What is the stated purpose of the transaction on November 1st, 2023, according to the SAR?",NFT Withdrawal Request,The stated purpose of the transaction is an NFT Withdrawal Request and a transfer from Netherlands.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_005,Which company received the largest transfer from the victim?,ArtGenesis Ltd.,ArtGenesis Ltd.,True,True,EXACT,EXACT,EXACT
-case_005,What is the name of the person who invited Pieter van der Meer to join ArtGenesis?,Alexander,Alexander from ArtGenesis invited Pieter van der Meer to join ArtGenesis.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_005,What country is associated with the bank account used by Dimitar Petrov?,Bulgaria,Bulgaria,True,True,EXACT,EXACT,EXACT
-case_005,What type of asset was involved in this fraud case?,NFTs,NFTs were involved in this fraud case.,False,False,EXACT,EXACT,EXACT
-case_005,What is the URL mentioned in the ArtGenesis brochure?,www.artgenesis.fake,The URL provided in the brochure is www.artgenesis.fake.,False,False,EXACT,EXACT,EXACT
-case_005,"According to the email, what is the limited-time offer from ArtGenesis?",Double Your Investment,The offer is an opportunity to double your investment in an exclusive NFT collection.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_006,What is the reported fraud type in this case?,Forex Scam,Forex Scam,True,True,EXACT,EXACT,EXACT
-case_006,Which company is consistently mentioned in the transaction history and reports?,EuroFX Solutions Ltd,EuroFX Solutions Ltd,True,True,EXACT,EXACT,EXACT
-case_006,Approximately how much money did the victim initially invest?,€8000,The provided information does not specify the initial investment amount. It only mentions payments of €1500 and €3000 related to recovering losses and funds.,False,False,WRONG,WRONG,WRONG
-case_006,What is the purpose of the transaction on 2024-01-10?,Recovery Fees,Recovery Fees,True,True,EXACT,EXACT,EXACT
-case_006,"According to the brochure, what is advertised as a benefit of using EuroFX Solutions?","Maximize your returns, minimize your risk",EuroFX Solutions aims to help users maximize returns and minimize risk.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_006,What is the victim's country of residence?,Germany,Germany,True,True,EXACT,EXACT,EXACT
-case_006,What is the location of the fraudster?,Bulgaria,The fraudster is located in Bulgaria.,False,False,EXACT,EXACT,EXACT
-case_006,What did the victim pay for recovery fees?,€1500,The victim paid €1500 to secure funds and an additional €3000 to release funds.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_006,What is the reported education level of the victim?,High School,High School,True,True,EXACT,EXACT,EXACT
-case_006,"What language does the fraudster speak, in addition to Bulgarian?",German,The fraudster speaks German.,False,False,EXACT,EXACT,EXACT
-case_007,What is the fraud subtype in this case?,AI Trading Scam,AI Trading Scam,True,True,EXACT,EXACT,EXACT
-case_007,What is Klaus Weber’s age range?,55-64,55-64,True,True,EXACT,EXACT,EXACT
-case_007,Which company received the largest individual investment from Klaus Weber?,InnovAI Solutions Ltd,InnovAI Solutions Ltd,True,True,EXACT,EXACT,EXACT
-case_007,What is the destination country for the funds transferred to InnovAI Solutions Ltd?,St. Vincent and the Grenadines,The provided information does not specify a destination country for any funds.,False,False,WRONG,WRONG,WRONG
-case_007,When did Klaus Weber first make an investment with InnovAI?,2023-09-01,Klaus Weber first made an investment with InnovAI on 2023-09-01.,False,False,EXACT,EXACT,EXACT
-case_007,"According to the provided email, what is the supposed benefit of joining the InnovAI Beta Program?",Potentially double your investment in just weeks.,Participants in the InnovAI Beta Program may have the opportunity to double their investment within a few weeks.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_007,Which financial institution filed the SAR reports?,"Sparkasse Bank, Deutsche Bank",Sparkasse Bank and Deutsche Bank filed the SAR reports.,False,False,EXACT,EXACT,EXACT
-case_007,Is there any mention of cryptocurrency transactions in the bank statements?,"Yes, there is a transaction of BTC","Yes, there is a transaction of BTC.",True,True,EXACT,EXACT,EXACT
-case_008,What was the initial investment amount made by the victim?,€12000,The initial investment amount was €12000.,False,False,EXACT,EXACT,EXACT
-case_008,What company is repeatedly mentioned as the recipient of the victim’s funds?,Coral Financial Group Ltd,Coral Financial Group Ltd,True,True,EXACT,EXACT,EXACT
-case_008,What is the alleged purpose of the 'recovery fee' requested from the victim?,Processing fee to finalize the recovery process,The stated reason for the 'recovery fee' is to finalize the recovery process.,False,False,EXACT,EXACT,EXACT
-case_008,What type of financial instrument was the victim initially involved in?,Forex Trading,The victim was initially involved in Forex Trading.,False,False,EXACT,EXACT,EXACT
-case_008,What language(s) are spoken by the fraudster?,English and Spanish,English and Spanish.,True,True,EXACT,EXACT,EXACT
-case_008,What is the domain name used in the recovery brochure?,www.secureassetretrieval.net,The recovery brochure mentions www.secureassetretrieval.net.,False,False,EXACT,EXACT,EXACT
-case_008,"Which account received the largest amount of money, and what was the date of that transaction?","Coral Financial Group Ltd, 2023-04-22","Coral Financial Group Ltd received the largest amount of money, and the date of that transaction was 2023-04-22.",False,False,PARTIAL,PARTIAL,PARTIAL
-case_008,What country is the fraudster based in?,Belize,The fraudster is based in Belize.,False,False,EXACT,EXACT,EXACT
-case_009,What is the primary fraud type in this case?,Investment Fraud,Investment Fraud,True,True,EXACT,EXACT,EXACT
-case_009,What is the victim’s name?,Klaus Bergmann,Klaus Bergmann,True,True,EXACT,EXACT,EXACT
-case_009,Which company is mentioned in both the promotional brochure and the bank statement?,Adriatic Forex Solutions Ltd,Adriatic Forex Solutions Ltd,True,True,EXACT,EXACT,EXACT
-case_009,What amount did the victim pay as a 'processing fee'?,€375,The victim paid €375 as a 'processing fee'.,False,False,EXACT,EXACT,EXACT
-case_009,What is the stated purpose of the first transaction recorded in the SAR file?,Initial Investment,Initial Investment,True,True,EXACT,EXACT,EXACT
-case_009,"According to the email, what is the reason provided for the processing fee?",Market volatility,Market volatility.,True,True,EXACT,EXACT,EXACT
-case_009,"What is the country of registration for Adriatic Forex Solutions Ltd, as mentioned in the SAR file?",Cyprus,Cyprus,True,True,EXACT,EXACT,EXACT
-case_009,"What is the primary language spoken by the fraudster, according to the metadata?",English,English,True,True,EXACT,EXACT,EXACT
-case_009,What is the account number of the victim’s account at Raiffeisenbank Austria?,AT4233000000001234567890,AT4233000000001234567890,True,True,EXACT,EXACT,EXACT
-case_009,What does the website screenshot description indicate about the displayed profit graph?,Results not typical,"The screenshot depicts a graph that is presented as demonstrating consistent profit growth over time. However, a disclaimer indicates that the results shown are not typical.",False,False,PARTIAL,PARTIAL,PARTIAL
-case_010,What is the victim's account number?,DE8770100500000000100234,DE8770100500000000100234,True,True,EXACT,EXACT,EXACT
-case_010,What is the reported fraud type?,Investment Fraud,Investment Fraud.,True,True,EXACT,EXACT,EXACT
-case_010,What was the purpose of the transaction on 2023-10-27?,NFT Purchase,NFT Purchase,True,True,EXACT,EXACT,EXACT
-case_010,Which company is mentioned in both promotional material and bank statements?,Venture Galactic Ltd,Venture Galactic Ltd,True,True,EXACT,EXACT,EXACT
-case_010,What is the destination country for the funds transferred from Klaus Eberhardt’s account?,Malta,The destination account is with MT18BANKMT.,False,False,WRONG,WRONG,WRONG
-case_010,What was the amount of the initial investment made by the victim?,12000,The initial investment made by the victim was 12000.,False,False,EXACT,EXACT,EXACT
-case_010,What is the occupation of the victim?,None,The victim's occupation is none.,False,False,PARTIAL,PARTIAL,PARTIAL
-case_010,Which European country does the fraudster reside in?,Serbia,The fraudster resides in Serbia.,False,False,EXACT,EXACT,EXACT
-case_010,What type of digital asset was involved in the fraud?,NFT,NFT,True,True,EXACT,EXACT,EXACT
-case_010,Which company initially reported this activity?,Sparkasse Bank,Sparkasse Bank initially reported this activity.,False,False,EXACT,EXACT,EXACT
+case_001,What is the account number of Hendrik Jansen's bank account?,NL97ABNA0123456789,NL97ABNA0123456789,True,True,EXACT,EXACT,EXACT
+case_001,"According to the email from QuantumLeap Investments, what was Hendrik Jansen’s initial investment?","€5,000","Hendrik Jansen’s initial investment was €5,000.",False,False,EXACT,EXACT,EXACT
+case_001,Which bank initially reported the suspicious activity involving Hendrik Jansen?,ABN AMRO Bank N.V.,ABN AMRO Bank N.V.,True,True,EXACT,EXACT,EXACT
+case_001,What is the destination account number used for the investment transfers?,BM3800000000000000001,The destination account number used for the investment transfers is BM3800000000000000001.,False,False,EXACT,EXACT,EXACT
+case_001,"What concerns did Hendrik Jansen express, according to the SAR filed by ING Bank N.V.?",He expressed concern regarding withdrawal restrictions.,He expressed concern regarding withdrawal restrictions.,True,True,EXACT,EXACT,EXACT
+case_001,"According to the promotional material, what is a key feature of QuantumLeap Investments’ trading algorithms?",They consistently outperform the market.,The trading algorithms utilize artificial intelligence and consistently achieve returns that exceed market performance.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_001,What type of imagery is used on the QuantumLeap Investments website?,Stock imagery of confident business people.,"The website showcases a path toward financial freedom and extraordinary success, promising exceptional returns and personalized investment guidance.",False,False,WRONG,WRONG,WRONG
+case_001,In which country is the QuantumLeap Investments website domain registered?,Belize,I am unable to determine the country of registration for the website domain.,False,False,WRONG,WRONG,WRONG
+case_001,What is the purpose consistently stated for the transactions involving Hendrik Jansen and QuantumLeap Investments?,Investment,The purpose is investment.,False,False,EXACT,EXACT,EXACT
+case_001,What seemingly positive result is claimed in the email to Hendrik Jansen?,"His portfolio has significantly increased in value to over €8,000.","His portfolio has significantly increased in value to over €8,000.",True,True,EXACT,EXACT,EXACT
+case_002,What is the Report ID for the SAR filed by Commerzbank?,DEU2023-123,The Report ID is DEU2023-123.,False,False,EXACT,EXACT,EXACT
+case_002,"According to the bank statement, what was the initial transfer amount into Victim 1's account?",12000 EUR,The initial transfer amount into the account was 12000 EUR.,False,False,EXACT,EXACT,EXACT
+case_002,Which company name appears in the SAR filed by Šiaulių bankas (LTU2024-007)?,Altalytics GmbH,Altalytics GmbH,True,True,EXACT,EXACT,EXACT
+case_002,What did the email from support@athenaaitrader.com claim about the AI algorithms used by AthenaAI Trader?,They analyze complex data patterns to generate consistent profits – even in volatile market conditions.,"The AI algorithms analyze complex data patterns to generate consistent profits, even in volatile market conditions.",False,True,EXACT,EXACT,EXACT
+case_002,What was the purpose of the transaction on 2024-01-10 according to the SAR filed by Erste Bank?,Withdrawal Attempt,The purpose of the transaction on 2024-01-10 was a withdrawal attempt.,False,False,EXACT,EXACT,EXACT
+case_002,What is the destination account mentioned in sar_1.xml?,LT12100001110123451,The destination account is GR1601101250000000012310695.,False,False,WRONG,WRONG,WRONG
+case_002,What action did Erste Bank take regarding the withdrawal attempt on 2024-01-10?,Withdrawal attempt denied due to insufficient funds.,The withdrawal attempt was denied due to insufficient funds. There was also suspicious activity regarding previous deposits.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_002,"According to the brochure, what is one of the guarantees provided by AthenaAI Trader?","Enjoy market-beating returns, guaranteed.",AthenaAI Trader guarantees market-beating returns.,False,False,EXACT,EXACT,EXACT
+case_002,What subject line did the email claiming to be from a recovery specialist use?,Urgent: Potential Funds Recovery – AthenaAI Trader,"The email from the recovery specialist used the subject line ""Urgent: Potential Funds Recovery – AthenaAI Trader.""",False,False,EXACT,EXACT,EXACT
+case_002,What does the website screenshot suggest about the AthenaAI Trader website?,The website features prominently displayed graphics showcasing rapidly increasing graphs and charts.,"The website has a modern aesthetic, highlighted by graphics illustrating growth. A headline promotes financial opportunity, and a button encourages immediate engagement. Visitors are shown a real-time performance indicator and can find additional information through links in the footer.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_003,What is the name of the reporting institution in SAR AT2024-1234?,Creditas Bank Austria,Alpine Credit Union is the reporting institution.,False,False,WRONG,WRONG,WRONG
+case_003,"According to the promotional material, what technology is used by QuantumAlgo?",AI-powered trading platform,QuantumAlgo utilizes AI-powered technology.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_003,What is the purpose of the transaction on 2024-01-10 involving Victim 1's account?,Investment,The purpose of the transaction on 2024-01-10 involving Victim 1's account was investment.,False,False,EXACT,EXACT,EXACT
+case_003,What KYC documentation does QuantumAlgo request from Victim 1?,A copy of their passport or government-issued ID,QuantumAlgo requests a copy of a passport or government-issued ID to verify identity and ensure account security.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_003,What is the main reason for the processing fee mentioned in email_3?,Increased security measures,"The processing fee is required to complete the withdrawal transaction, which is due to increased security measures.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_003,What is the purpose of the transactions involving the 'Affiliate Marketer' accounts?,Commission,The purpose of the transactions is listed as 'Commission'.,False,False,EXACT,EXACT,EXACT
+case_003,What is the account number associated with Victim 1 in SAR AT2024-1234?,GR1601101250000000012310695,The account number associated with Victim 1 is GR1601101250000000012310695.,False,False,EXACT,EXACT,EXACT
+case_003,"Based on the website screenshot, what visual elements are used to portray QuantumAlgo?","Sleek, modern design with animated charts and graphs demonstrating impressive returns, prominent testimonials, and a 'Join Now' button.","The website utilizes animated charts and graphs to showcase returns, and it includes testimonials from users.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_003,What is the destination account used for all transactions mentioned in the provided files?,BM000000000000000000,All transactions utilize the destination account BM000000000000000000.,False,False,EXACT,EXACT,EXACT
+case_003,What is the link provided in the email regarding KYC verification?,www.quantumalgo.fake/kyc,The link for uploading documents is www.quantumalgo.fake/kyc.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_004,What is the report ID for the initial Suspicious Activity Report (SAR) filed by ABN AMRO?,INV2024-017-001,The report ID for the initial Suspicious Activity Report (SAR) filed by ABN AMRO is INV2024-017-001.,False,False,EXACT,EXACT,EXACT
+case_004,"According to the email from NovaTech AI Trading, what potential daily return was advertised to victims?",Up to 20%,The email mentions the possibility of earning daily returns of up to 20%.,False,False,EXACT,EXACT,EXACT
+case_004,What is the destination account number consistently used for transfers related to NovaTech Investments Ltd?,CY610020000100000000000000,CY610020000100000000000000 is the account number consistently used for transfers related to NovaTech Investments Ltd.,False,False,EXACT,EXACT,EXACT
+case_004,"Based on the SAR filed by Alpha Bank Cyprus, where are the destination accounts located?",The Netherlands,"According to the SAR filed by Alpha Bank Cyprus, the destination accounts are located in the Netherlands.",False,False,EXACT,EXACT,EXACT
+case_004,What is the purpose stated for the transactions between Victim 1 and NovaTech Investments Ltd?,Investment,The purpose of the transactions is investment.,False,False,EXACT,EXACT,EXACT
+case_004,What is the 'Transaction ID' shown in the email confirmation of a withdrawal?,NTW-20231110-12345,The 'Transaction ID' is NTW-20231110-12345.,False,False,EXACT,EXACT,EXACT
+case_004,"Which entity is linked to a network of fraudulent investment schemes operating in Serbia and Cyprus, according to Europol’s SAR?",Golden Horizon Ltd,Golden Horizon Ltd is linked to a network of fraudulent investment schemes operating in Serbia and Cyprus.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_004,"What amount of funds was Victim 1 offered a 10% return on, according to the second email?","€5,000","The second email mentions earning daily returns of up to 20%, but it does not specify an amount of funds that this return is based on.",False,False,WRONG,WRONG,WRONG
+case_004,"How many times did Victim 1 receive a salary from Company A, as recorded in the bank statement?",Two,"Company A paid Victim 1 a salary twice, as recorded in the bank statement.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_004,"According to the SAR filed by Europol, what is the investigative priority regarding Golden Horizon Ltd?",Investigative priority,The entity is linked to a network of fraudulent investment schemes operating in Serbia and Cyprus. It was also used to funnel funds internationally.,False,False,WRONG,WRONG,WRONG
+case_005,What is the ReportID for the Suspicious Activity Report (SAR) filed by ABN AMRO?,INV2024-027-001,The ReportID for the SAR filed by ABN AMRO is INV2024-027-001.,False,False,EXACT,EXACT,EXACT
+case_005,"What amount did Victim 1 initially invest with Altcoin Global Ltd, according to the bank statement?",5000 EUR,"According to the bank statement, the initial investment with Altcoin Global Ltd was 5000 EUR.",False,False,EXACT,EXACT,EXACT
+case_005,"According to promotional material, what is the main benefit offered by QuantumFX AI Trader?",Unparalleled returns,"QuantumFX AI Trader offers consistent, exponential growth and unparalleled returns.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_005,What is the purpose stated for the transaction in the SAR filed by HSBC regarding Altcoin Global Ltd?,Investment,The stated purpose for the transaction is investment.,False,False,EXACT,EXACT,EXACT
+case_005,What is the DestinationAccount where Altcoin Global Ltd transferred funds to according to the SAR filed by ABN AMRO?,LT12100001110123451,"The destination account where Altcoin Global Ltd transferred funds to, according to the SAR filed by ABN AMRO, is LT12100001110123451.",False,False,EXACT,EXACT,EXACT
+case_005,"What is the stated reason for the delay in Victim 1's withdrawal request, according to the fourth email?",High transaction volume,There is a high transaction volume that is causing delays.,False,False,EXACT,EXACT,EXACT
+case_005,"What account did Hong Kong Company Ltd. transfer funds to, as stated in the SAR filed by Standard Chartered?",Belize Account,Hong Kong Company Ltd. transferred funds to a Belize Account.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_005,"Besides the Netherlands, which other countries are involved in the money transfers?",United Kingdom and Belize,Greece is involved in the money transfers.,False,False,WRONG,WRONG,WRONG
+case_005,What did the screenshot of the QuantumFX website describe about its design?,"Clean, modern interface intended to convey trustworthiness and sophistication","The website has a clean, modern interface with interactive charts and graphs and a design intended to convey trustworthiness and sophistication.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_005,What risk assessment was assigned to the transaction by ABN AMRO?,High,The risk assessment was high.,False,False,EXACT,EXACT,EXACT
+case_006,What is the report ID for the suspicious activity related to Hans Schmidt?,DE2024-0089,The report ID is DE2024-0089.,False,False,EXACT,EXACT,EXACT
+case_006,What is the destination account used for the investments according to the SAR files?,BZ010000000000000000,The destination account used for the investments is BZ010000000000000000.,False,False,EXACT,EXACT,EXACT
+case_006,"According to the brochure, what technology does NovaTrade AI claim to use?",Artificial intelligence,NovaTrade AI states it uses artificial intelligence to find and benefit from profitable trading opportunities in the cryptocurrency market.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,What is the purpose of the email sent from verification@novatrade.co?,"To request additional verification documents, specifically a passport and utility bill.","The email is to inform Hans that additional verification documents, specifically a copy of his passport and a recent utility bill, are needed before his withdrawal request can be processed.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,"Besides Hans Schmidt, who else is identified as a potential victim in the case files?",Anna Weber and Boris Volkov,Anna Weber is also identified as a potential victim.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,What amount did NovaTrade AI suggest Hans Schmidt deposit according to email_2.txt?,"€3,000","NovaTrade AI suggested depositing an additional €3,000.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,What does the website screenshot_1.txt mention about NovaTrade AI's returns?,It promises ‘Guaranteed ROI’,The website screenshot_1.txt mentions testimonials from users claiming exceptional returns. It also features a large banner promising a ‘Guaranteed ROI.’,False,False,PARTIAL,PARTIAL,PARTIAL
+case_006,Which institution filed the report with ID AT2024-0123?,Raiffeisenbank International,Raiffeisenbank International filed the report with ID AT2024-0123.,False,False,EXACT,EXACT,EXACT
+case_006,What is the stated purpose for the transactions observed in the SAR files?,Investment,The purpose of the transactions is investment.,False,False,EXACT,EXACT,EXACT
+case_006,What bonus is advertised in the email sent to all potential victims?,A 15% bonus on their first deposit,A 15% bonus is being offered on the first deposit for new investors.,False,False,EXACT,EXACT,EXACT
+case_007,What is the report ID of the SAR filed by Erste Bank?,INV2024-017-SAR2,The report ID of the SAR filed by Erste Bank is INV2024-017-SAR2.,False,False,EXACT,EXACT,EXACT
+case_007,"According to the brochure, what is a key feature of NovaTrade AI's trading?",AI-Powered Trading: Our advanced algorithms work 24/7 to maximize your profits.,The platform utilizes advanced algorithms that operate continuously to increase profits.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_007,What was the purpose of the transaction on 2023-09-01?,Investment,The transaction on 2023-09-01 was a deposit.,False,False,WRONG,WRONG,WRONG
+case_007,What additional investment was requested from Hans Gruber according to email_3?,500 EUR,An investment of 500 EUR was requested.,False,False,EXACT,EXACT,EXACT
+case_007,Which bank initially reported the suspicious activity?,Volksbank Wien,Belize Bank initially reported the suspicious activity.,False,False,WRONG,WRONG,WRONG
+case_007,What is the destination account for the initial deposit of 12000 EUR?,CY7000300000000000,The destination account for the initial deposit of 12000 EUR is CY7000300000000000.,False,False,EXACT,EXACT,EXACT
+case_007,What entity is associated with the withdrawal request of 1000 EUR?,Altcoin Global Ltd,Hans Gruber is associated with the withdrawal request of 1000 EUR.,False,False,WRONG,WRONG,WRONG
+case_007,What is the ROI promised by NovaTrade AI in email_2?,An average ROI of 20% per week.,NovaTrade AI anticipates an average ROI of 20% each week.,False,False,EXACT,EXACT,EXACT
+case_007,What does SAR 3 identify as the destination of funds transferred from Altcoin Global Ltd?,Unknown,The destination of funds transferred from Altcoin Global Ltd is unknown.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_007,"According to website_screenshot_1, what are the testimonials on the NovaTrade AI website?",Testimonials from 'satisfied users' with generic stock photos.,"The testimonials on the NovaTrade AI website are from individuals described as 'satisfied users,' and they are accompanied by generic stock photos.",False,False,EXACT,EXACT,EXACT
+case_008,What is the report ID for the SAR filed by Credomatic Bank Austria?,AT2024-123,The report ID is AT2024-123.,False,False,EXACT,EXACT,EXACT
+case_008,What is the destination account used for the investments according to the SARs?,RS1000100100123456789,The destination account used for the investments is RS1000100100123456789.,False,False,EXACT,EXACT,EXACT
+case_008,"According to the bank statement of Helmut Gruber, what was the purpose of the transactions with Automated Investments SRL?",Investment,The purpose of the transactions with Automated Investments SRL was investment.,False,False,EXACT,EXACT,EXACT
+case_008,What does the brochure claim about Automated Investments’ technology?,Secure & Transparent Technology,The technology is secure and transparent.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_008,What action did Automated Investments propose to Helmut in email_2?,To complete a simple verification process to release profits.,The Automated Investments team invited Helmut to begin using their platform to observe a difference.,False,False,WRONG,WRONG,WRONG
+case_008,"What security concern led to a temporary restriction on withdrawals, according to email_3?",Heightened security concerns,Heightened security concerns led to a temporary restriction on withdrawals from the Automated Investments account.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_008,What is the domain name mentioned in the brochure?,www.automatedinvestments.net,The domain name is www.automatedinvestments.net.,False,False,EXACT,EXACT,EXACT
+case_008,"According to the website screenshot, what is lacking regarding Automated Investments' team and location?",The 'About Us' section is vague and doesn't provide concrete details.,The Automated Investments team's contact information is support@automatedinvestments.com. There is no mention of their location.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_008,Which bank filed the SAR with report ID CY2024-050?,Cyprus Global Bank,Cyprus Global Bank filed the SAR with report ID CY2024-050.,False,False,EXACT,EXACT,EXACT
+case_008,What does email_4 claim to have detected regarding Helmut's account?,Unusual activity,The email indicates unusual activity on the account.,False,False,EXACT,EXACT,EXACT
+case_009,What is the Report ID for the SAR filed by Sparkasse Bank?,INV2024-032-SAR1,The Report ID for the SAR filed by Sparkasse Bank is INV2024-032-SAR1.,False,False,EXACT,EXACT,EXACT
+case_009,"According to email_2.txt, what is the claimed monthly return potential of the QuantumAI Solutions trading system?",Up to 35% per month,The AI trading system is reported to generate returns of up to 35% per month.,False,False,EXACT,EXACT,EXACT
+case_009,Which account number was used for the initial transfer from Hans Schmidt to QuantumAI Solutions?,DE8770020290000000000123,I am unable to answer the question regarding the account number used for the initial transfer. The provided information does not contain that detail.,False,False,WRONG,WRONG,WRONG
+case_009,What is the purpose stated for the transaction from John Doe to QuantumAI Solutions in SAR_3.xml?,Consultancy Fees,The purpose is Consultancy Fees.,False,False,EXACT,EXACT,EXACT
+case_009,"Besides QuantumAI Solutions Ltd, which other entities are listed in the bank statements?",Company B,The provided information does not mention any other entities listed in bank statements.,False,False,WRONG,WRONG,WRONG
+case_009,What is the subject line of the email offering fund recovery?,Urgent: Potential Recovery of Lost Funds,The subject line of the email is Urgent: Potential Recovery of Lost Funds.,False,False,EXACT,EXACT,EXACT
+case_009,"According to promotional_1.txt, what experience level is required to use QuantumAI Solutions?",No experience needed,No experience is needed to use QuantumAI Solutions.,False,False,EXACT,EXACT,EXACT
+case_009,What concerns are raised in the Findings section of INV2024-032-SAR1?,Unusually large transfer to Belize-based company. The stated purpose of investment is concerning given the limited interaction prior to the transfer.,"The findings indicate an unusually large transfer to a company based in Belize. The stated purpose of investment is also a concern, especially considering the limited interaction prior to the transfer.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_009,What website is promoted in the emails from QuantumAI Solutions?,www.quantumaisolutions.com,The website promoted is www.quantumaisolutions.com.,False,False,EXACT,EXACT,EXACT
+case_009,What type of business does Altcoin Global Ltd operate?,Not mentioned in the case files,The business model of Altcoin Global Ltd is ambiguous.,False,False,WRONG,WRONG,WRONG
+case_010,"According to the SAR, what is the primary purpose of the first transaction from Victim 1 to NovaTrade AI?",Investment,The purpose of the first transaction from Victim 1 to NovaTrade AI is investment.,False,False,EXACT,EXACT,EXACT
+case_010,What does the brochure claim about the NovaTrade AI platform?,It claims the platform is 'Secure & Transparent'.,"The platform offers automated trading that doesn't require experience, has the potential for daily profit, and is secure and transparent.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_010,What amount of processing fee was requested from Victim 1 for the withdrawal?,50 EUR,A processing fee of 50 EUR was requested.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_010,What is the account number for NovaTrade AI in Belize International Bank?,BZ1234567890,The account number for NovaTrade AI in Belize International Bank is BZ1234567890.,False,False,EXACT,EXACT,EXACT
+case_010,"Besides EUR, are any other currencies involved in the reported transactions?",None,The reported transactions involve only EUR.,False,False,PARTIAL,PARTIAL,PARTIAL
+case_010,What is the purpose of the second transaction from Victim 1's account to NovaTrade AI?,Withdrawal,The purpose is to encourage a further investment to accelerate returns.,False,False,WRONG,WRONG,WRONG
+case_010,What is the name of the company that pays Victim 1's salary?,Company A,The context does not specify which company pays Victim 1's salary.,False,False,WRONG,WRONG,WRONG
+case_010,What types of testimonials are featured on the NovaTrade AI website?,Testimonials claim high returns and ease of use.,"The website displays testimonials that highlight significant returns and ease of use, with one person stating they've never seen such returns and another recommending the platform as incredibly profitable.",False,False,PARTIAL,PARTIAL,PARTIAL
+case_010,What is the finding described in SAR 3?,Transfers to offshore account with no apparent business purpose. Potential money laundering.,Transfers to offshore account with no apparent business purpose. Potential money laundering.,True,True,EXACT,EXACT,EXACT
+case_010,What email address was used to send the initial recruitment email to Victim 1?,recruiter@novatrade.fake,The email was sent from recruiter@novatrade.fake.,False,False,EXACT,EXACT,EXACT

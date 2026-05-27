@@ -1,42 +1,42 @@
 [
   {
-    "question": "What is the name of the company the victim initially invested in?",
-    "answer": "ArtVerse Collective Ltd"
+    "question": "What is the report ID for the initial Suspicious Activity Report (SAR) filed by ABN AMRO?",
+    "answer": "INV2024-017-001"
   },
   {
-    "question": "What currency was used for the initial investment transaction?",
-    "answer": "EUR"
+    "question": "According to the email from NovaTech AI Trading, what potential daily return was advertised to victims?",
+    "answer": "Up to 20%"
   },
   {
-    "question": "Which country's bank reported the suspicious activity?",
-    "answer": "Ireland"
+    "question": "What is the destination account number consistently used for transfers related to NovaTech Investments Ltd?",
+    "answer": "CY610020000100000000000000"
   },
   {
-    "question": "According to the files, what type of asset was the victim invested in?",
-    "answer": "NFT"
+    "question": "Based on the SAR filed by Alpha Bank Cyprus, where are the destination accounts located?",
+    "answer": "The Netherlands"
   },
   {
-    "question": "Who is the recipient of the money wired from the victim\u2019s account on August 22, 2023?",
-    "answer": "ArtVerse Collective Ltd"
+    "question": "What is the purpose stated for the transactions between Victim 1 and NovaTech Investments Ltd?",
+    "answer": "Investment"
   },
   {
-    "question": "What is mentioned on the website screenshot?",
-    "answer": "The screenshot shows a branded page with promotions and testimonials from 'verified investors'."
+    "question": "What is the 'Transaction ID' shown in the email confirmation of a withdrawal?",
+    "answer": "NTW-20231110-12345"
   },
   {
-    "question": "What is the report ID for the SAR filed with AIB Bank?",
-    "answer": "IRL2024-007"
+    "question": "Which entity is linked to a network of fraudulent investment schemes operating in Serbia and Cyprus, according to Europol\u2019s SAR?",
+    "answer": "Golden Horizon Ltd"
   },
   {
-    "question": "What was the purpose of the transaction recorded in sar_1.xml?",
-    "answer": "Investment in NFT project"
+    "question": "What amount of funds was Victim 1 offered a 10% return on, according to the second email?",
+    "answer": "\u20ac5,000"
   },
   {
-    "question": "What company employed the victim?",
-    "answer": "Eaton Pharmaceuticals"
+    "question": "How many times did Victim 1 receive a salary from Company A, as recorded in the bank statement?",
+    "answer": "Two"
   },
   {
-    "question": "What is the account number of Aoife Byrne?",
-    "answer": "IE42AIBK94470243958013"
+    "question": "According to the SAR filed by Europol, what is the investigative priority regarding Golden Horizon Ltd?",
+    "answer": "Investigative priority"
   }
 ]

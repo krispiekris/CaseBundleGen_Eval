@@ -1,0 +1,14 @@
+From: noreply@erste-bank.at
+To: victim1@email.at
+Subject: Important Security Verification
+
+Dear [Victim 1],
+
+For your continued security, please verify your account details by clicking on the link below:
+
+[link to phishing verification page]
+
+Failure to verify your account may result in temporary suspension.
+
+Sincerely,
+Erste Bank Security Team
